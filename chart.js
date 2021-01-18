@@ -45,7 +45,7 @@ var dta = {
             'Ostatní provozní výnosy': 'přijaté dary, granty a dotace, tržby z prodeje majetku a materiálu, zúčtování fondu digitalizace',
             'Finanční výnosy': 'přijaté úroky, kurzové zisky a ostatní finanční výnosy',
             'Mimořádné výnosy': 'tržby z prodeje nemovitostí, aj.',
-            'Zúčtování fondu digitalizace': 'zúčtování účelového fondu na krytí nákladů souvisejících s digitalizací vysílání a archivu ČRo',
+            'Zúčtovaní fondu digitalizace': 'zúčtování účelového fondu na kraytí nákladů souvisejících s digitalizací vysílání a archivu ČRo',
             'Tržby za vlastní výkony': 'vedle výnosů z rozhlasových poplatků skupina obsahuje i výnosy z obchodních aktivit a prodeje služeb'  
         },
         'series': [{
@@ -53,19 +53,19 @@ var dta = {
             colorByPoint: true,
             data: [{
                 name: 'Tržby za vlastní výkony',
-                y: 2220923,
+                y: 2205756,
                 drilldown: 'vlastni_vykony'
             }, {
                 name: 'Zúčtování fondu digitalizace',
-                y: 68400,
+                y: 89000,
                 drilldown: null
             }, {
                 name: 'Ostatní provozní výnosy',
-                y: 6896,
+                y: 7344,
                 drilldown: null
             }, {
                 name: 'Finanční výnosy',
-                y: 15781,
+                y: 10900,
                 drilldown: null
             }, {
                 name: 'Mimořádné výnosy',
@@ -78,13 +78,13 @@ var dta = {
                 name: 'Tržby za vlastní výkony',
                 id: 'vlastni_vykony',
                 data: [
-                    ['Výnosy z rozhlasových poplatků', 2086200],
-                    ['Tržby z reklamy a sponzoringu a ost. obch. aktivit', 85000],
-                    ['Výnosy ze zahraničního vysílání', 27750],
-                    ['Ostatní tržby z prodeje služeb', 21973],
-                    ['Zúčtování fondu digitalizace', 68400],
-                    ['Ostatní provozní výnosy', 6896],
-                    ['Finanční výnosy', 15781],
+                    ['Výnosy z rozhlasových poplatků', 2077000],
+                    ['Tržby z reklamy a sponzoringu a ost. obch. aktivit', 83000],
+                    ['Výnosy ze zahraničního vysílání', 28500],
+                    ['Ostatní tržby z prodeje služeb', 17256],
+                    ['Zúčtování fondu digitalizace', 89000],
+                    ['Ostatní provozní výnosy', 7344],
+                    ['Finanční výnosy', 10900],
                     ['Mimořádné výnosy', 0]
                     
                 ]
@@ -142,35 +142,35 @@ var dta = {
             colorByPoint: true,
             data: [{
                 name: 'Náklady na materiál',
-                y: 29170,
+                y: 24755,
                 drilldown: 'material'
             }, {
                 name: 'Náklady na služby',
-                y: 988169,
+                y: 997207,
                 drilldown: 'sluzby'
             }, {
                 name: 'Náklady na provoz',
-                y: 68215,
+                y: 58772,
                 drilldown: 'provoz'
             }, {
                 name: 'Osobní náklady',
-                y: 1023000,
+                y: 1033000,
                 drilldown: 'osobni'
             }, {
                 name: 'Daně',
-                y: 17116,
+                y: 17029,
                 drilldown: 'dane'
             }, {
                 name: 'Ostatní provozní náklady',
-                y: 166900,
+                y: 162000,
                 drilldown: 'ostatni_provozni'
             }, {
                 name: 'Nedaňové náklady',
-                y: 15119,
+                y: 15396,
                 drilldown: 'nedanove'
             }, {
                 name: 'Finanční náklady',
-                y: 4311,
+                y: 4841,
                 drilldown: null
             }, {
                 name: 'Mimořádné náklady',
@@ -183,70 +183,70 @@ var dta = {
                 name: 'Náklady na materiál',
                 id: 'material',
                 data: [
-                    ['Drobný majetek', 7149],
-                    ['Materiál - propagace', 11045],
-                    ['Materiál ostatní', 10976]
+                    ['Drobný majetek', 3347],
+                    ['Materiál - propagace', 11842],
+                    ['Materiál ostatní', 9566]
                 ]
             }, {
                 name: 'Náklady na služby',
                 id: 'sluzby',
                 data: [
-                    ['Technické programové služby', 41000],
-                    ['Agenturní zpravodajství', 23916],
-                    ['Honoráře kolektivním správcům', 89088],
-                    ['Vysílací práva, náklady na program', 2276],
-                    ['Honoráře fyzickým osobám', 196938],
-                    ['Poradenské služby', 3891],
-                    ['Služby propagace', 87997],
+                    ['Technické programové služby', 46500],
+                    ['Agenturní zpravodajství', 24018],
+                    ['Honoráře kolektivním správcům', 92555],
+                    ['Vysílací práva, náklady na program', 6518],
+                    ['Honoráře fyzickým osobám', 193990],
+                    ['Poradenské služby', 2875],
+                    ['Služby propagace', 92426],
                     ['Provize za reklamu a sponzoring', 0],
-                    ['Vysílače', 315000],
-                    ['Ostatní vysílací prostředky', 29506],
-                    ['Telefony', 8559],
-                    ['Nehmotný majetek', 460],
-                    ['Nájemné', 28737],
-                    ['Inkasné za rozhlasové poplatky', 106300],
-                    ['Ostatní služby', 46601]
+                    ['Vysílače', 324250],
+                    ['Ostatní vysílací prostředky', 26776],
+                    ['Telefony', 7736],
+                    ['Nehmotný majetek', 315],
+                    ['Nájemné', 27668],
+                    ['Inkasné za rozhlasové poplatky', 104000],
+                    ['Ostatní služby', 47580]
                 ]
             }, {
                 name: 'Náklady na provoz',
                 id: 'provoz',
                 data: [
-                    ['Energie', 23773],
-                    ['Cestovné', 22736],
-                    ['Opravy a údržba majetku', 12964],
-                    ['Pohonné hmoty', 2795],
-                    ['Ostatní provozní náklady', 5947]
+                    ['Energie', 23252],
+                    ['Cestovné', 14894],
+                    ['Opravy a údržba majetku', 12310],
+                    ['Pohonné hmoty', 2450],
+                    ['Ostatní provozní náklady', 5866]
                 ]
             }, {
                 name: 'Osobní náklady',
                 id: 'osobni',
                 data: [
-                    ['Mzdové náklady včetně zákonného pojištění', 967000],
-                    ['Ostatní příjmy FO včetně zákonného pojištění', 39400],
-                    ['Sociální náklady', 16600]
+                    ['Mzdové náklady včetně zákonného pojištění', 974500],
+                    ['Ostatní příjmy FO včetně zákonného pojištění', 41700],
+                    ['Sociální náklady', 16800]
                 ]
             }, {
                 name: 'Daně',
                 id: 'dane',
                 data: [
                     ['DPH bez nároku na odpočet', 14000],
-                    ['Ostatní daně', 3116],
+                    ['Ostatní daně', 3029],
                     ['Daň z příjmů', 0]
                 ]
             }, {
                 name: 'Ostatní provozní náklady',
                 id: 'ostatni_provozni',
                 data: [
-                    ['Odpisy dlouhodobého majetku', 131700],
-                    ['Odpis pohledávek', 33120],
-                    ['Tvorba a zúčtování opravných položek', 2080]
+                    ['Odpisy dlouhodobého majetku', 133000],
+                    ['Odpis pohledávek', 27000],
+                    ['Tvorba a zúčtování opravných položek', 2000]
                 ]
             }, {
                 name: 'Nedaňové náklady',
                 id: 'nedanove',
                 data: [
-                    ['Reprezentace', 7339],
-                    ['Ostatní nedaňové náklady', 7780]
+                    ['Reprezentace', 5707],
+                    ['Ostatní nedaňové náklady', 9689]
                 ]
             }]
         }
@@ -282,7 +282,7 @@ function drawChart(chapter) {
 	        }
 	    },
 	    title: {
-	        text: 'Rozpočet 2020 – ' + dta[chapter]['series'][0]['name']
+	        text: 'Rozpočet 2021 – ' + dta[chapter]['series'][0]['name']
 	    },
 	    subtitle: {
 	        text: ''
