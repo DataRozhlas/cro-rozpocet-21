@@ -1,0 +1,67 @@
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#chartbox {
+	position:absolute;
+}
+
+#chart, #table {
+	width: 980px;
+	position: relative;
+}
+
+#chart {
+	height: 500px;
+}
+
+#table {
+	margin-top: 20px;
+	height: auto;
+	font-size: 12px;
+}
+
+#table > td {
+	padding: 3px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+#nav {
+	position: relative;
+	width: 150px;
+	left: 43%;
+
+}
+
+#naklady, #vynosy {
+	z-index: 20;
+	position: relative;
+	width: 60px;
+	padding: 1px;
+	border:1px solid gray;
+	margin: 5px;
+	cursor: pointer;
+	text-align: center;
+	float: right;
+}
+
+.active {
+	background-color: #fc9272;
+}
+
+.right {
+	text-align: right;
+}
+
+.download {
+	position: relative;
+	font-size: 10px;
+	top: 20px;
+	color: gray;
+}
+
+.sum {
+	min-width: 100px;
+}
