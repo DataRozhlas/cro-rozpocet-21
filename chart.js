@@ -269,7 +269,7 @@ function drawChart(chapter) {
 	    chart: {
 	        type: 'pie',
 		        options3d: {
-	            enabled: true,
+	            enabled: false,
 	            alpha: 45
 	        },
 	        events: {
