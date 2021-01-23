@@ -42,10 +42,10 @@ var dta = {
             'Tržby z reklamy a sponzoringu a ost. obch. aktivit': 'tržby z obchodních aktivit (cashové i barterové operace) - reklama, sponzoring, prodej práv, ad.',
             'Výnosy ze zahraničního vysílání': 'dotace od Ministerstva zahraničních věcí České republiky na zahraniční vysílání',
             'Ostatní tržby z prodeje služeb': 'nájemné a přefakturace služeb, vstupné na koncerty hudebních těles, zdravotní služby, …',
-            'Ostatní provozní výnosy': 'přijaté dary, granty a dotace, tržby z prodeje majetku a materiálu, zúčtování fondu digitalizace',
+            'Ostatní provozní výnosy': 'přijaté dary, granty a dotace, tržby z prodeje majetku a materiálu',
             'Finanční výnosy': 'přijaté úroky, kurzové zisky a ostatní finanční výnosy',
             'Mimořádné výnosy': 'tržby z prodeje nemovitostí, aj.',
-            'Zúčtovaní fondu digitalizace': 'zúčtování účelového fondu na kraytí nákladů souvisejících s digitalizací vysílání a archivu ČRo',
+            'Zúčtovaní fondu digitalizace': 'zúčtování účelového fondu na krytí nákladů souvisejících s digitalizací vysílání a archivu ČRo',
             'Tržby za vlastní výkony': 'vedle výnosů z rozhlasových poplatků skupina obsahuje i výnosy z obchodních aktivit a prodeje služeb'  
         },
         'series': [{
